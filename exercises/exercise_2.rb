@@ -6,4 +6,4 @@ def is_adult?(age)
   end
 end
 
-puts is_adult?(12)
+p is_adult?(12)
