@@ -1,9 +1,9 @@
 def is_adult?(age)
   if age >= 18
-    return age,'is a adult'
+    return "#{age} is a adult"
   else
-    return age,"is not adult"
+    return "#{age} is not adult"
   end
 end
 
-p is_adult?(12)
+puts is_adult?(12)
